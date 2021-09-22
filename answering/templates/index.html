@@ -40,7 +40,12 @@
             </div>
         </div>
         <div class="top">
-            <p>Top 10 preguntas más frecuentes en Historia</p>
+            <p>Top 10 preguntas más frecuentes</p>
+            <ol>
+                {%for elemento in frecuentes%}
+                    <li>{{elemento}}</li>
+                {%endfor%}
+            </ol>
         </div>
     </div>
 </body>

@@ -23,3 +23,6 @@ def cargarHistorial():
   reverso = lineas[-8:]
   reverso.reverse()
   return reverso
+
+def frecuentes(categoria):
+  return ""

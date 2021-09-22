@@ -10,6 +10,8 @@ def pregunta(request):
         categoria = request.POST['combo']
         resultado = respuesta(categoria, pregunta)
         historial = cargarHistorial()
-        return render(request, 'index.html', {'pregunta': pregunta, 'respuesta': resultado[0], 'historial': historial})
+        frec = frecuentes(categoria)
+        return render(request, 'index.html', {'pregunta': pregunta, 'respuesta': resultado[0], 'historial': historial, 'frecuentes': frec})
     else:
-        return render(request, 'index.html', {'historial': historial})
+        frec = frecuentes("historia")
+        return render(request, 'index.html', {'historial': historial, 'frecuentes': frec})
