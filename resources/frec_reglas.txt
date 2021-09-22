@@ -1,0 +1,22 @@
+P: ¿Qué hay que hacer para ser estudiante regular?​
+R: Matricularse mínimo al 60% de las asignaturas
+P: ¿Cuál es la calificación mínima para aporbar?​
+R: 6
+P: ¿Cómo se convierte de créditos a horas?​
+R: 16
+P: ¿Cómo se divide cada período académico?​
+R: Dos parciales
+P: ¿Cuanto dura cada parcial del período ordinario?​
+R: 8 semanas
+P: ¿Cuáles son las modalidades de aprendizaje en ESPOL?​
+R: Presencial - semipresencial - en línea - a distancia - dual
+P: ¿Cuándo se realiza la matriculación ordinaria?​
+R: Previo al inicio de las clases de cada término o periodo académico
+P: ¿Cuándo se realiza la matriculación extraordinaria?​
+R: De forma posterior al inicio de las actividades formativas del término o periodo académico
+P: ¿Cuál es la condición para matriculación especial?​
+R: Hasta dentro de los 7 días finales
+P: ¿Cuáles son los requisitos para matricularse?​
+R: Prerrequisitos listos - no tener deudas - asignatura disponible
+P: ¿Qué pasa si un estudiante se quedá en tercera matrícula?
+R: Pierde la carrera

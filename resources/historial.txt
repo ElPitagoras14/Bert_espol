@@ -2,3 +2,5 @@ R:29 de octubre de 1958
 P:Cuando se fundo espol?
 R:Consejo politécnico - rector - decanos
 P:Que es fiec?
+R: Consejo politécnico - rector - decanos
+P: Que es fiec?

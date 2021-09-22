@@ -1,0 +1,20 @@
+P: ¿Cuántas facultades tiene ESPOL?​
+R: 32
+P: ¿Cuántas carreras de pregrado hay?​
+R: 32
+P: ¿Qué carreras tiene (FCNM)?​
+R: Logística y transporte, estadística, ingeniería química y matemática
+P: ¿Qué es FICT?​
+R: La facultad de ingeniería en ciencias de la tierra
+P: ¿Cuál es la estructura de ESPOL?​
+R: Consejo politécnico - rector - decanos
+P: ¿Qué decanatos hay?​
+R: De investigación, postgrado y grado
+P: ¿Qué centros de investigación hay?​
+R: Cibe
+P: ¿Qué es CIBE​?
+R: Centro de investigaciones biotecnológicas del ecuador
+P: ¿Cuáles son los centros de vinculación?​
+R: Cema cec cdpro i3lab cisco-espol
+P: ¿Qué es i3lab?
+R: Centro de emprendimiento e innovación

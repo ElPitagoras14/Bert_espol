@@ -1,0 +1,24 @@
+P: ¿Qué significan las siglas ESPOL?
+R: Universidad de las fuerzas armadas
+P: ¿Quién fundó la ESPOL?​
+R: Dr. camilo ponce enríquez
+P: ¿En que fecha se fundó la ESPOL?​
+R: 29 de octubre de 1958
+P: ¿Quién fue el primer rector?​
+R: Ing. walter camacho navarro
+P: ¿Quién inaguró el primer centro de computo?​
+R: José maría velasco ibarra
+P: ¿Cuantas hectáreas tiene el campus “La Prosperina”?​
+R: 690
+P: ¿Cuando fue inagurado el campus de La Prosperina?​
+R: 1991
+P: ¿Donde se impartió por primera vez clases?​
+R: La casona de la universidad de guayaquil
+P: ¿Cómo fue financiado el proyecto?​
+R: Un préstamo del bid
+P: ¿Con cuánto se financió el proyecto?​
+R: Cerca de 4 millones de dólares
+P: ¿Qué categoría es de acuerdo al CEAACES?​
+R: Categoría a
+P: ¿Cuando empezó la primera acreditación ABET?
+R: 2012
