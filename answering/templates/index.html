@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+    <link href="{% static 'css/reset.css' %}" rel="stylesheet">
+    <link href="{% static 'css/style.css' %}" rel="stylesheet">
+    <title>Bert-Espol</title>
+</head>
+<body>
+    <div class="menu">
+        <p>Bert-Espol</p>
+    </div>
+    <div>
+        <div class="pregunta">
+            <div class="input">
+                <form method="POST" action="">
+                    {% csrf_token %}
+                    <label for="">Pregunta</label>
+                    <input type="text" name="text">
+                    <input type="submit" value="Enviar Pregunta">
+                    <select name="combo">
+                        <option value="historia">Historia</option>
+                        <option value="estructura">Estructura Organizacional</option>
+                        <option value="reglas">Reglamentos</option>
+                    </select>
+                </form>
+                
+            </div>
+            <hr>
+            <div class="historial">
+                <p>Historial de preguntas</p>
+                <ul>
+                    {%for elemento in historial%}
+                        <li>{{elemento}}</li>
+                    {%endfor%}
+                </ul>
+            </div>
+        </div>
+        <div class="top">
+            <p>Top 10 preguntas más frecuentes en Historia</p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,50 @@
+.columna{
+    width: 30%;
+    margin: 10px ;
+    padding-left: 10px;
+    background-color: skyblue;
+    float: left;
+}
+
+.menu{
+    max-width: 95%;
+    margin: 10px;
+    padding: 10px;
+    background-color: lightblue;
+}
+
+.titulo{
+    margin: 10px;
+}
+
+.pregunta{
+    min-width: 500px;
+    width: 55%;
+    margin: 10px;
+    float: left;
+}
+
+.top{
+    width: 40%;
+    margin: 10px;
+    background-color: lightgrey;
+    float: left;
+}
+
+.input{
+    size: 10cm;
+}
+
+.historial {
+    background-color: lightcyan;
+}
+
+hr {
+    height: 5px;
+    background-color: whitesmoke;
+}
+
+#contenedor{
+    margin: 0 auto;
+    max-width: 100%;
+}
