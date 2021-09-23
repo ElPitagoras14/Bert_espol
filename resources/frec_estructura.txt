@@ -1,5 +1,5 @@
 P: ¿Cuántas facultades tiene ESPOL?​
-R: 32
+R: 6
 P: ¿Cuántas carreras de pregrado hay?​
 R: 32
 P: ¿Qué carreras tiene (FCNM)?​
@@ -11,7 +11,7 @@ R: Consejo politécnico - rector - decanos
 P: ¿Qué decanatos hay?​
 R: De investigación, postgrado y grado
 P: ¿Qué centros de investigación hay?​
-R: Cibe
+R: CIBE CIT CENAIM CEAP CADS CIPAT CIDIS CIDNA CERA.
 P: ¿Qué es CIBE​?
 R: Centro de investigaciones biotecnológicas del ecuador
 P: ¿Cuáles son los centros de vinculación?​
