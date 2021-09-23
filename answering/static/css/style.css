@@ -1,5 +1,7 @@
 #fondo_espol {
-    background-image: url('logo.png');
+    background-image: url('logo2.png');
+    background-color: rgb(143, 149, 180);
+    opacity: 100%;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -12,7 +14,7 @@
     max-width: 100%;
     font-family: 'Verdana', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding: 2px;
-    background-color: lightgrey;
+    background-color: rgb(93, 93, 93);
     font-size: large;
 }
 
@@ -38,6 +40,11 @@ p {
     margin: 10px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
+    color: white;
+}
+
+label {
+    color: white;
 }
 
 ul, ol {
@@ -46,6 +53,13 @@ ul, ol {
     list-style: none;
     margin-left: 10px;
     color:white;
+    margin-top: 10px;
+}
+
+li {
+    margin-top: 8px;
+    font-size: 16px;
+    color: white;
 }
 
 li::before{
