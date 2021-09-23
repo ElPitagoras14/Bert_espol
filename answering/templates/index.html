@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+    
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,42 +13,47 @@
     <title>Bert-Espol</title>
 </head>
 <body>
-    <div class="menu">
-        <p>Bert-Espol</p>
-    </div>
-    <div id="main">
-        <div class="pregunta">
-            <div class="input">
-                <form method="POST" action="">
-                    {% csrf_token %}
-                    <label for="">Pregunta</label>
-                    <input type="text" name="text">
-                    <input type="submit" value="Enviar Pregunta">
-                    <select name="combo">
-                        <option value="historia">Historia</option>
-                        <option value="estructura">Estructura Organizacional</option>
-                        <option value="reglas">Reglamentos</option>
-                    </select>
-                </form>
+    <div id="fondo_espol">
+        <div class="menu">
+            <p>Inicio - Bert-Espol</p>
+        </div>
+        <div id="main">
+            <div class="pregunta">
+                <div class="input">
+                    <form method="POST" action="">
+                        {% csrf_token %}
+                        <label for="">Pregunta</label>
+                        <input type="text" name="text">
+                        <input type="submit" value="Enviar Pregunta">
+                        <select name="combo">
+                            <option value="historia">Historia</option>
+                            <option value="estructura">Estructura Organizacional</option>
+                            <option value="reglas">Reglamentos</option>
+                        </select>
+                    </form>
+                </div>
+                <hr align="left">
+                <div class="historial">
+                    <p>Historial de preguntas</p>
+                    <ul>
+                        {%for elemento in historial%}
+                            <li>{{elemento}}</li>
+                        {%endfor%}
+                    </ul>
+                </div>
             </div>
-            <hr align="left">
-            <div class="historial">
-                <p>Historial de preguntas</p>
-                <ul>
-                    {%for elemento in historial%}
+            <div class="top">
+                <p>Preguntas Frecuentes</p>
+                <ol>
+                    {%for elemento in frecuentes%}
                         <li>{{elemento}}</li>
                     {%endfor%}
-                </ul>
+                </ol>
             </div>
-        </div>
-        <div class="top">
-            <p>Preguntas Frecuentes</p>
-            <ol>
-                {%for elemento in frecuentes%}
-                    <li>{{elemento}}</li>
-                {%endfor%}
-            </ol>
-        </div>
+        </div> 
     </div>
+
+    
+    
 </body>
 </html>
