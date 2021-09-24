@@ -36,9 +36,9 @@
                 <div class="historial">
                     <p>Historial de preguntas</p>
                     <ul>
-                        {%for elemento in historial%}
-                            <li>{{elemento}}</li>
-                        {%endfor%}
+                        {% for i in historial %}
+                            <li><a id="pregunta"">{{i.0}}</a><br>{{i.1}}</li>
+                        {% endfor %}
                     </ul>
                 </div>
             </div>

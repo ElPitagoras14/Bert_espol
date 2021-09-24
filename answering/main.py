@@ -14,21 +14,25 @@ def context(archivo):
 def respuesta(categoria, pregunta = "¿Cuándo se fundó espol?"):
   ctx = context("ctx_" + categoria + ".txt")
   result = question_answering(context=ctx, question=pregunta)
-  archivo = open("resources/historial.txt", "a", encoding="utf-8")
+  historial = open("resources/historial.txt", "a", encoding="utf-8")
   answer = result["answer"]
   score = result["score"]
-  archivo.write("R: " + answer.capitalize() + "\n")
-  archivo.write("P: " + pregunta.capitalize() + "\n")
-  archivo.close()
+  historial.write("P: " + pregunta.capitalize() + "|")
+  historial.write("R: " + answer.capitalize() + "\n")
+  historial.close()
   return (answer, score)
 
 def cargarHistorial():
-  archivo = open("resources/historial.txt", "r", encoding="utf-8")
-  lineas = archivo.readlines()
-  reverso = lineas[-8:]
-  reverso.reverse()
-  archivo.close()
-  return reverso
+  pregunta = open("resources/historial.txt", "r", encoding="utf-8")
+  lineas_p = pregunta.readlines()
+  reverso_p = lineas_p[-6:]
+  lista = []
+  reverso_p.reverse()
+  pregunta.close()
+  for pre in reverso_p:
+    tmp = pre.split("|")
+    lista.append(tmp)
+  return lista
 
 def frecuentes(categoria):
   archivo = open("resources/frec_" + categoria + ".txt", "r", encoding="utf-8")
