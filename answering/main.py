@@ -17,7 +17,7 @@ def respuesta(categoria, pregunta = "¿Cuándo se fundó espol?"):
   historial = open("resources/historial.txt", "a", encoding="utf-8")
   answer = result["answer"]
   score = result["score"]
-  historial.write("P: " + pregunta.capitalize() + "|")
+  historial.write("P: " + pregunta + "|")
   historial.write("R: " + answer.capitalize() + "\n")
   historial.close()
   return (answer, score)

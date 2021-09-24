@@ -23,7 +23,7 @@
                     <form method="POST" action="">
                         {% csrf_token %}
                         <label for=""><a style="font-size: 20px;" >Pregunta</a></label>
-                        <input type="text" name="text" size="30px">
+                        <input type="text" name="text" size="60px">
                         <select name="combo">
                             <option value="historia">Historia</option>
                             <option value="estructura">Estructura Organizacional</option>
@@ -37,7 +37,7 @@
                     <p>Historial de preguntas</p>
                     <ul>
                         {% for i in historial %}
-                        <a id="pregunta"">{{i.0}}</a>
+                        <a id="preg">{{i.0}}</a>
                             <li>{{i.1}}</li>
                         {% endfor %}
                     </ul>

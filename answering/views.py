@@ -4,7 +4,6 @@ from .main import *
 # Create your views here.
 
 def pregunta(request):
-    historial = cargarHistorial()
     if request.method == 'POST':
         pregunta = request.POST['text']
         categoria = request.POST['combo']
@@ -13,5 +12,6 @@ def pregunta(request):
         frec = frecuentes(categoria)
         return render(request, 'index.html', {'pregunta': pregunta, 'respuesta': resultado[0], 'historial': historial, 'frecuentes': frec})
     else:
+        historial = cargarHistorial()
         frec = frecuentes("historia")
         return render(request, 'index.html', {'historial': historial, 'frecuentes': frec})
