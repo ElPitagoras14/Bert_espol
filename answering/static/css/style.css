@@ -28,6 +28,10 @@
     float: left;
 }
 
+.input {
+    width: 10px;
+}
+
 .top{
     width: 40%;
     height: 500px;
@@ -77,7 +81,6 @@ hr {
 #main{
     margin: 10px;
     max-width: 100%;
-    background-color: red;
 
 }
 
