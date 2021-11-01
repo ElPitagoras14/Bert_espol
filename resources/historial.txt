@@ -1,0 +1,4 @@
+P: ¿Cuándo se fundó Espol?|R: 29 de octubre de 1958
+P: ¿Qué es FIEC?|R: La facultad de ingeniería en electricidad y computación
+P: ¿Qué hay que hacer para ser estudiante regular?|R: Matricularse mínimo al 60% de las asignaturas
+P: ¿Cuál es el decano de la facultad de FIEC?|R: Walter camacho navarro
